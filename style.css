@@ -100,3 +100,31 @@ body {
   color: hsl(25, 97%, 53%);
   background-color: white;
 }
+
+.ratingSelection {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 15px;
+
+  color: hsl(25, 97%, 53%);
+  background-color: #262e38;
+}
+
+.thankYou {
+  margin-bottom: -10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.thanksText {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
