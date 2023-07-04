@@ -14,8 +14,8 @@
   </head>
   <body>
     <main>
-      <div class="container">
-        <!-- <div class="star">
+      <div class="firstPage">
+        <div class="star">
           <img src="./images/icon-star.svg" alt="star icon" />
         </div>
 
@@ -28,17 +28,17 @@
         </p>
 
         <ul class="ratingOptions">
-          <li class="score">1</li>
-          <li class="score">2</li>
-          <li class="score">3</li>
-          <li class="score">4</li>
-          <li class="score">5</li>
+          <li><button class="scoreButton" onclick="rate(1)">1</button></li>
+          <li><button class="scoreButton" onclick="rate(2)">2</button></li>
+          <li><button class="scoreButton" onclick="rate(3)">3</button></li>
+          <li><button class="scoreButton" onclick="rate(4)">4</button></li>
+          <li><button class="scoreButton" onclick="rate(5)">5</button></li>
         </ul>
 
-        <button class="submit">Submit</button> -->
+        <button class="submit" onclick="submit(1, 2)">Submit</button>
+      </div>
 
-        <!-- Thank you state start -->
-
+      <div class="secondPage">
         <img
           src="./images/illustration-thank-you.svg"
           alt="feedback representation image"
@@ -46,18 +46,18 @@
         />
 
         <div class="ratingSelection">
-          <p>You selected</p>
-          <div class="numberSelected">1</div>
-          <p>out of 5</p>
+          <p>You selected
+            <span id="rating">1</span>
+          out of 5</p>
         </div>
 
         <h2 class="thankYou">Thank you!</h2>
 
         <p class="thanksText">
-          We appreciate you taking the time to give a rating. <br> If you
-          ever need more support, don't hesitate to <br> get in touch!
+          We appreciate you taking the time to give a rating. <br />
+          If you ever need more support, don't hesitate to <br />
+          get in touch!
         </p>
-
       </div>
     </main>
     <script src="script.js"></script>
