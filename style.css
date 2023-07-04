@@ -3,6 +3,7 @@
 * {
   margin: 0 auto;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Overpass", sans-serif;
 }
 
@@ -114,7 +115,6 @@ main {
   background-color: white;
 }
 
-
 .illustrationThankYou {
   display: flex;
   margin-bottom: 30px;
@@ -154,4 +154,3 @@ main {
 .secondPage {
   display: none;
 }
-
